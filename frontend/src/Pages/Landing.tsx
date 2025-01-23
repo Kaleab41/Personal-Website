@@ -79,7 +79,7 @@ const Landing = () => {
       {/* About Section */}
       <section
         id="about"
-        className="min-h-screen flex flex-col justify-center items-center px-6 border-t border-gray-200"
+        className="min-h-screen flex flex-col justify-center items-center px-6 border-t pt-12 border-gray-200"
       >
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12">
           {/* Left Side: About Me Description */}
@@ -98,6 +98,40 @@ const Landing = () => {
               taught me patience, foresight, and the importance of planning—skills
               that I apply to my work as a developer.
             </p>
+              {/* GitHub Contribution Graph */}
+    <div className="mt-8 w-full">
+      <h3 className="text-xl md:text-2xl font-medium mb-4">
+        My GitHub Contributions
+      </h3>
+      <div className="overflow-x-auto">
+        <img
+          src="https://ghchart.rshah.org/Kaleab41"
+          alt="Kaleab Mesfin's GitHub Contributions"
+          className="w-full max-w-2xl mx-auto"
+        />
+      </div>
+    </div>
+
+    {/* Stack Overflow Profile */}
+    <div className="mt-8 w-full">
+      <h3 className="text-xl md:text-2xl font-medium mb-4">
+        My Stack Overflow Activity
+      </h3>
+      <div className="flex justify-center">
+        <a
+          href="https://stackoverflow.com/users/12955516/defcon41"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline"
+        >
+          <img
+            src={`https://stackoverflow.com/users/flair/12955516.png?theme=dark`}
+            alt="Stack Overflow Profile for Defcon41"
+            className="w-full max-w-xs md:max-w-sm"
+          />
+        </a>
+      </div>
+    </div>
           </div>
 
           {/* Right Side: Vertical Timeline */}
@@ -206,7 +240,7 @@ const Landing = () => {
                   <p className="text-sm text-gray-500">Jul 2022 - Dec 2022</p>
                   <p className="text-lg text-gray-600 mt-2">
                     Designed and developed intuitive mobile applications using
-                    Flutter. Implemented user-friendly UI/UX designs and
+                    Flutter and Dart. Implemented user-friendly UI/UX designs and
                     interactive features.
                   </p>
                 </div>
