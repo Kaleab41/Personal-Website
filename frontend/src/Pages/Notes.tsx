@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Notes = () => {
   const [folderStructure, setFolderStructure] = useState(null);
-  const [openFolders, setOpenFolders] = useState({}); // Track open/closed state
+  const [openFolders, setOpenFolders] = useState<Record<string, boolean>>({}); // Track open/closed state
 
   useEffect(() => {
     // Fetch the folder structure JSON file
@@ -14,17 +14,19 @@ const Notes = () => {
         return response.json();
       })
       .then((data) => setFolderStructure(data))
-      .catch((error) => console.error("Error fetching folder structure:", error));
+      .catch((error) =>
+        console.error("Error fetching folder structure:", error)
+      );
   }, []);
 
-  const toggleFolder = (path) => {
-    setOpenFolders((prevState) => ({
+  const toggleFolder = (path: any) => {
+    setOpenFolders((prevState: any) => ({
       ...prevState,
       [path]: !prevState[path], // Toggle the folder's open/closed state
     }));
   };
 
-  const renderFolderStructure = (structure, path = "") => {
+  const renderFolderStructure = (structure: any, path = "") => {
     return Object.entries(structure).map(([key, value]) => {
       const currentPath = path ? `${path}/${key}` : key;
 
@@ -71,7 +73,8 @@ const Notes = () => {
         <p className="text-lg text-gray-600 leading-8">
           Welcome to my notes page! Here, I share my thoughts, learnings, and
           insights on software development, machine learning, and personal
-          growth. Stay tuned for updates! Notice this notes are taken by me during my readings...
+          growth. Stay tuned for updates! Notice this notes are taken by me
+          during my readings...
         </p>
         <p className="text-lg text-gray-600 leading-8">
           Explore topics and subtopics below:

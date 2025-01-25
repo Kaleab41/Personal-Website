@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom"; // For routing to the Notes and Blog pages
 import KaleabMesfin from "../assets/KaleabMesfin.jpg";
 
