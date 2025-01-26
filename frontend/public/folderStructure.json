@@ -1,11 +1,12 @@
 {
-
-    "Notes": {
-      "Machine Learning": {
-        "DataPreprocessing": {
-          "DataPreprocessing.html": null
-        }
+  "Notes": {
+    "Machine Learning": {
+      "DataPreprocessing": {
+        "DataPreprocessing.html": null
+      },
+      "SimpleLinearRegression": {
+        "SimpleLinearRegression.html": null
       }
     }
   }
-  
+}
