@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom"; // For routing to the Notes and Blog pages
 import KaleabMesfin from "../assets/KaleabMesfin.jpg";
 
@@ -88,50 +87,68 @@ const Landing = () => {
             <p className="text-lg text-gray-600 leading-8">
               Hi, I'm Kaleab Mesfin, a Back-End Developer and Software Engineer
               based in Addis Ababa, Ethiopia. My expertise lies in crafting
-              scalable back-end systems and building dynamic web applications. I'm
-              deeply interested in Machine Learning and back-end development,
-              driven by a passion for innovation and problem-solving.
+              scalable back-end systems and building dynamic web applications.
+              I'm deeply interested in Machine Learning and back-end
+              development, driven by a passion for innovation and
+              problem-solving.
             </p>
             <p className="text-lg text-gray-600 leading-8 mt-4">
-              When I'm not coding, you'll often find me playing chess. I love the
-              strategic depth and mental challenge the game offers. Chess has
-              taught me patience, foresight, and the importance of planning—skills
-              that I apply to my work as a developer.
+              When I'm not coding, you'll often find me playing chess. I love
+              the strategic depth and mental challenge the game offers. Chess
+              has taught me patience, foresight, and the importance of
+              planning—skills that I apply to my work as a developer.
             </p>
-              {/* GitHub Contribution Graph */}
-    <div className="mt-8 w-full">
-      <h3 className="text-xl md:text-2xl font-medium mb-4">
-        My GitHub Contributions
-      </h3>
-      <div className="overflow-x-auto">
-        <img
-          src="https://ghchart.rshah.org/Kaleab41"
-          alt="Kaleab Mesfin's GitHub Contributions"
-          className="w-full max-w-2xl mx-auto"
-        />
-      </div>
-    </div>
+            {/* GitHub Contribution Graph */}
+            <div className="mt-8 w-full">
+              <h3 className="text-xl md:text-2xl font-medium mb-4">
+                My GitHub Contributions
+              </h3>
+              <div className="overflow-x-auto">
+                <img
+                  src="https://ghchart.rshah.org/Kaleab41"
+                  alt="Kaleab Mesfin's GitHub Contributions"
+                  className="w-full max-w-2xl mx-auto"
+                />
+              </div>
+            </div>
 
-    {/* Stack Overflow Profile */}
-    <div className="mt-8 w-full">
-      <h3 className="text-xl md:text-2xl font-medium mb-4">
-        My Stack Overflow Activity
-      </h3>
-      <div className="flex justify-center">
-        <a
-          href="https://stackoverflow.com/users/12955516/defcon41"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 hover:underline"
-        >
-          <img
-            src={`https://stackoverflow.com/users/flair/12955516.png?theme=dark`}
-            alt="Stack Overflow Profile for Defcon41"
-            className="w-full max-w-xs md:max-w-sm"
-          />
-        </a>
-      </div>
-    </div>
+            {/* Stack Overflow Profile */}
+            <div className="mt-8 w-full">
+              <h3 className="text-xl md:text-2xl font-medium mb-4">
+                My Stack Overflow Activity
+              </h3>
+              <div className="flex justify-center">
+                <a
+                  href="https://stackoverflow.com/users/12955516/defcon41"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline"
+                >
+                  <img
+                    src={`https://stackoverflow.com/users/flair/12955516.png?theme=dark`}
+                    alt="Stack Overflow Profile for Defcon41"
+                    className="w-full max-w-xs md:max-w-sm"
+                  />
+                </a>
+              </div>
+            </div>
+
+            {/* NPM Package */}
+            <div className="mt-8 w-full">
+              <h3 className="text-xl md:text-2xl font-medium mb-4">
+                My Published NPM Package
+              </h3>
+              <div className="flex justify-center">
+                <a
+                  href="https://www.npmjs.com/package/arifpay-express"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:underline text-lg"
+                >
+                  arifpay-express – ArifPay API integration for Express.js
+                </a>
+              </div>
+            </div>
           </div>
 
           {/* Right Side: Vertical Timeline */}
@@ -144,9 +161,26 @@ const Landing = () => {
               {/* Timeline Items */}
               <div className="space-y-8 pl-8">
                 {/* Founder and CEO - Adwa Dynamics Software Technologies */}
+                {/* Lecturer - California Training Institute */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
                     1
+                  </div>
+                  <h3 className="text-2xl font-medium">Lecturer</h3>
+                  <p className="text-lg text-gray-600">
+                    California Training Institute
+                  </p>
+                  <p className="text-sm text-gray-500">Mar 2025 – Present</p>
+                  <p className="text-lg text-gray-600 mt-2">
+                    Teaching software engineering concepts, back-end
+                    development, and modern web technologies. I mentor students
+                    on clean code practices and real-world project architecture.
+                  </p>
+                </div>
+
+                <div className="relative">
+                  <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
+                    2
                   </div>
                   <h3 className="text-2xl font-medium">Founder and CEO</h3>
                   <p className="text-lg text-gray-600">
@@ -157,15 +191,15 @@ const Landing = () => {
                     Launched and oversee a software development company
                     specializing in innovative solutions. Manage end-to-end
                     software project lifecycles, ensuring on-time delivery and
-                    client satisfaction. Leverage expertise in Flutter, Dart, and
-                    Figma to design and deploy robust mobile applications.
+                    client satisfaction. Leverage expertise in Flutter, Dart,
+                    and Figma to design and deploy robust mobile applications.
                   </p>
                 </div>
 
                 {/* Chief Technology Officer - Safe Light Initiative */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    2
+                    3
                   </div>
                   <h3 className="text-2xl font-medium">
                     Chief Technology Officer
@@ -175,31 +209,31 @@ const Landing = () => {
                   <p className="text-lg text-gray-600 mt-2">
                     Spearheaded technological strategies and product development
                     for a non-profit organization. Designed and implemented
-                    scalable back-end systems and APIs to enhance operations. Led
-                    software project management initiatives and collaborated with
-                    cross-functional teams.
+                    scalable back-end systems and APIs to enhance operations.
+                    Led software project management initiatives and collaborated
+                    with cross-functional teams.
                   </p>
                 </div>
 
                 {/* Full-Stack Engineer - CodePoint Creatives */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    3
+                    4
                   </div>
                   <h3 className="text-2xl font-medium">Full-Stack Engineer</h3>
                   <p className="text-lg text-gray-600">CodePoint Creatives</p>
                   <p className="text-sm text-gray-500">Dec 2023 - Jan 2024</p>
                   <p className="text-lg text-gray-600 mt-2">
-                    Contributed to the development of dynamic web applications as
-                    part of a creative team. Integrated back-end functionality and
-                    implemented seamless user experiences.
+                    Contributed to the development of dynamic web applications
+                    as part of a creative team. Integrated back-end
+                    functionality and implemented seamless user experiences.
                   </p>
                 </div>
 
                 {/* Back-End Developer (Internship) - Purpose Black ETH */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    4
+                    5
                   </div>
                   <h3 className="text-2xl font-medium">
                     Back-End Developer (Internship)
@@ -216,22 +250,23 @@ const Landing = () => {
                 {/* Full-Stack Developer - Equb Systems */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    5
+                    6
                   </div>
                   <h3 className="text-2xl font-medium">Full-Stack Developer</h3>
                   <p className="text-lg text-gray-600">Equb Systems</p>
                   <p className="text-sm text-gray-500">Nov 2022 - Dec 2023</p>
                   <p className="text-lg text-gray-600 mt-2">
                     Delivered full-stack solutions, including front-end designs
-                    and back-end functionalities. Led software project management
-                    efforts, coordinating with stakeholders to meet goals.
+                    and back-end functionalities. Led software project
+                    management efforts, coordinating with stakeholders to meet
+                    goals.
                   </p>
                 </div>
 
                 {/* Mobile Application Developer - EthioCart */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    6
+                    7
                   </div>
                   <h3 className="text-2xl font-medium">
                     Mobile Application Developer
@@ -240,15 +275,15 @@ const Landing = () => {
                   <p className="text-sm text-gray-500">Jul 2022 - Dec 2022</p>
                   <p className="text-lg text-gray-600 mt-2">
                     Designed and developed intuitive mobile applications using
-                    Flutter and Dart. Implemented user-friendly UI/UX designs and
-                    interactive features.
+                    Flutter and Dart. Implemented user-friendly UI/UX designs
+                    and interactive features.
                   </p>
                 </div>
 
                 {/* Education - HILCoE School of Computer Science and Technology */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    7
+                    8
                   </div>
                   <h3 className="text-2xl font-medium">Education</h3>
                   <p className="text-lg text-gray-600">
@@ -263,12 +298,14 @@ const Landing = () => {
                 {/* Education - Saint Joseph School */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    8
+                    9
                   </div>
                   <h3 className="text-2xl font-medium">Education</h3>
                   <p className="text-lg text-gray-600">Saint Joseph School</p>
                   <p className="text-sm text-gray-500">2011 - 2019</p>
-                  <p className="text-lg text-gray-600 mt-2">High School Diploma</p>
+                  <p className="text-lg text-gray-600 mt-2">
+                    High School Diploma
+                  </p>
                 </div>
               </div>
             </div>
@@ -475,8 +512,8 @@ const Landing = () => {
         <div className="max-w-4xl text-center">
           <h2 className="text-4xl font-medium mb-6">Contact Me</h2>
           <p className="text-lg text-gray-600 leading-8">
-            Feel free to reach out to me via email or connect with me on Telegram
-            or Twitter/X:
+            Feel free to reach out to me via email or connect with me on
+            Telegram or Twitter/X:
           </p>
           <ul className="mt-6 space-y-4 text-lg text-gray-600 leading-8">
             <li>
