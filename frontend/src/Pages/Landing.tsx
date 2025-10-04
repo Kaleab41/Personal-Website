@@ -160,27 +160,90 @@ const Landing = () => {
 
               {/* Timeline Items */}
               <div className="space-y-8 pl-8">
-                {/* Founder and CEO - Adwa Dynamics Software Technologies */}
-                {/* Lecturer - California Training Institute */}
+                {/* Founder and CEO - Tixy */}
+                <div className="relative">
+                  <div className="absolute -left-4 w-8 h-8 bg-gradient-to-r from-purple-600 to-pink-500 rounded-full flex items-center justify-center text-white shadow-md animate-pulse">
+                    1
+                  </div>
+                  <h3 className="text-2xl font-semibold text-purple-700 flex items-center justify-center gap-2">
+                    Founder & CEO
+                    <span className="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full font-medium">
+                      Coming Soon 🚀
+                    </span>
+                  </h3>
+                  <p className="text-lg text-gray-600">Tixy</p>
+                  <p className="text-sm text-gray-500">2025 – Present</p>
+                  <p className="text-lg text-gray-600 mt-2 italic">
+                    Building an innovative event and ticketing platform that
+                    simplifies event discovery, management, and payments for
+                    both organizers and attendees. Stay tuned for something
+                    exciting!
+                  </p>
+                </div>
+
+                {/* Developer Lead */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    1
+                    2
+                  </div>
+                  <h3 className="text-2xl font-medium">Developer Lead</h3>
+                  <p className="text-lg text-gray-600">
+                    Circle Technologies | Yenetta Code
+                  </p>
+                  <p className="text-sm text-gray-500">Mar 2025 – Present</p>
+                  <p className="text-lg text-gray-600 mt-2">
+                    Currently working on Remmitwise, a modern remittance app;{" "}
+                    <a
+                      href="https://www.jami.bio/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Jami
+                    </a>
+                    , a digital tipping platform; and{" "}
+                    <a
+                      href="https://beblocky.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      BeBlocky
+                    </a>
+                    , an educational coding platform. More coming soon!
+                    <br />
+                    <a
+                      href="https://v2.jami.bio/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      Jami v2
+                    </a>
+                  </p>
+                </div>
+
+                {/* Lecturer */}
+                <div className="relative">
+                  <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
+                    3
                   </div>
                   <h3 className="text-2xl font-medium">Lecturer</h3>
                   <p className="text-lg text-gray-600">
                     California Training Institute
                   </p>
-                  <p className="text-sm text-gray-500">Mar 2025 – Present</p>
+                  <p className="text-sm text-gray-500">Mar 2025</p>
                   <p className="text-lg text-gray-600 mt-2">
                     Teaching software engineering concepts, back-end
-                    development, and modern web technologies. I mentor students
+                    development, and modern web technologies. Mentoring students
                     on clean code practices and real-world project architecture.
                   </p>
                 </div>
 
+                {/* Founder and CEO - Adwa Dynamics */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    2
+                    4
                   </div>
                   <h3 className="text-2xl font-medium">Founder and CEO</h3>
                   <p className="text-lg text-gray-600">
@@ -191,15 +254,14 @@ const Landing = () => {
                     Launched and oversee a software development company
                     specializing in innovative solutions. Manage end-to-end
                     software project lifecycles, ensuring on-time delivery and
-                    client satisfaction. Leverage expertise in Flutter, Dart,
-                    and Figma to design and deploy robust mobile applications.
+                    client satisfaction.
                   </p>
                 </div>
 
                 {/* Chief Technology Officer - Safe Light Initiative */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    3
+                    5
                   </div>
                   <h3 className="text-2xl font-medium">
                     Chief Technology Officer
@@ -208,32 +270,29 @@ const Landing = () => {
                   <p className="text-sm text-gray-500">Jan 2019 - Present</p>
                   <p className="text-lg text-gray-600 mt-2">
                     Spearheaded technological strategies and product development
-                    for a non-profit organization. Designed and implemented
-                    scalable back-end systems and APIs to enhance operations.
-                    Led software project management initiatives and collaborated
-                    with cross-functional teams.
+                    for a non-profit organization. Designed scalable back-end
+                    systems and APIs, leading cross-functional collaborations.
                   </p>
                 </div>
 
                 {/* Full-Stack Engineer - CodePoint Creatives */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    4
+                    6
                   </div>
                   <h3 className="text-2xl font-medium">Full-Stack Engineer</h3>
                   <p className="text-lg text-gray-600">CodePoint Creatives</p>
                   <p className="text-sm text-gray-500">Dec 2023 - Jan 2024</p>
                   <p className="text-lg text-gray-600 mt-2">
-                    Contributed to the development of dynamic web applications
-                    as part of a creative team. Integrated back-end
-                    functionality and implemented seamless user experiences.
+                    Contributed to dynamic web applications, integrating
+                    back-end functionality and enhancing user experience.
                   </p>
                 </div>
 
                 {/* Back-End Developer (Internship) - Purpose Black ETH */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    5
+                    7
                   </div>
                   <h3 className="text-2xl font-medium">
                     Back-End Developer (Internship)
@@ -241,32 +300,29 @@ const Landing = () => {
                   <p className="text-lg text-gray-600">Purpose Black ETH</p>
                   <p className="text-sm text-gray-500">Nov 2023 - Jan 2024</p>
                   <p className="text-lg text-gray-600 mt-2">
-                    Built and optimized APIs for critical business applications.
-                    Focused on server-side programming to support scalable
-                    operations.
+                    Built and optimized APIs for critical business applications,
+                    focusing on scalable server-side programming.
                   </p>
                 </div>
 
                 {/* Full-Stack Developer - Equb Systems */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    6
+                    8
                   </div>
                   <h3 className="text-2xl font-medium">Full-Stack Developer</h3>
                   <p className="text-lg text-gray-600">Equb Systems</p>
                   <p className="text-sm text-gray-500">Nov 2022 - Dec 2023</p>
                   <p className="text-lg text-gray-600 mt-2">
-                    Delivered full-stack solutions, including front-end designs
-                    and back-end functionalities. Led software project
-                    management efforts, coordinating with stakeholders to meet
-                    goals.
+                    Delivered full-stack solutions, managing both front-end and
+                    back-end systems, and coordinating with stakeholders.
                   </p>
                 </div>
 
                 {/* Mobile Application Developer - EthioCart */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    7
+                    9
                   </div>
                   <h3 className="text-2xl font-medium">
                     Mobile Application Developer
@@ -275,15 +331,15 @@ const Landing = () => {
                   <p className="text-sm text-gray-500">Jul 2022 - Dec 2022</p>
                   <p className="text-lg text-gray-600 mt-2">
                     Designed and developed intuitive mobile applications using
-                    Flutter and Dart. Implemented user-friendly UI/UX designs
-                    and interactive features.
+                    Flutter and Dart. Focused on user-friendly UI/UX and
+                    performance.
                   </p>
                 </div>
 
-                {/* Education - HILCoE School of Computer Science and Technology */}
+                {/* Education - HILCoE */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    8
+                    10
                   </div>
                   <h3 className="text-2xl font-medium">Education</h3>
                   <p className="text-lg text-gray-600">
@@ -295,10 +351,10 @@ const Landing = () => {
                   </p>
                 </div>
 
-                {/* Education - Saint Joseph School */}
+                {/* Education - Saint Joseph */}
                 <div className="relative">
                   <div className="absolute -left-4 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
-                    9
+                    11
                   </div>
                   <h3 className="text-2xl font-medium">Education</h3>
                   <p className="text-lg text-gray-600">Saint Joseph School</p>
@@ -321,9 +377,10 @@ const Landing = () => {
         <div className="max-w-4xl text-center">
           <h2 className="text-4xl font-medium mb-8">Tech Stacks</h2>
           <div className="space-y-10">
+            {/* Languages */}
             <div>
               <h3 className="text-2xl font-medium mb-4">Languages</h3>
-              <div className="flex justify-center gap-6">
+              <div className="flex justify-center gap-6 flex-wrap">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                   alt="JavaScript"
@@ -339,11 +396,22 @@ const Landing = () => {
                   alt="Python"
                   className="h-12 w-12"
                 />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/2048px-Rust_programming_language_black_logo.svg.png"
+                  alt="Rust"
+                  className="h-12 w-12 opacity-80 hover:opacity-100 transition"
+                  title="Learning Rust"
+                />
               </div>
+              <p className="text-gray-500 mt-2 text-sm italic">
+                Currently learning Rust 🦀
+              </p>
             </div>
+
+            {/* Frameworks & Tools */}
             <div>
               <h3 className="text-2xl font-medium mb-4">Frameworks & Tools</h3>
-              <div className="flex justify-center gap-6">
+              <div className="flex justify-center gap-6 flex-wrap">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                   alt="React"
@@ -352,6 +420,11 @@ const Landing = () => {
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                   alt="Node.js"
+                  className="h-12 w-12"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/nestjs.svg"
+                  alt="NestJS"
                   className="h-12 w-12"
                 />
                 <img
@@ -366,9 +439,11 @@ const Landing = () => {
                 />
               </div>
             </div>
+
+            {/* Databases */}
             <div>
               <h3 className="text-2xl font-medium mb-4">Databases</h3>
-              <div className="flex justify-center gap-6">
+              <div className="flex justify-center gap-6 flex-wrap">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
                   alt="MySQL"
@@ -391,9 +466,11 @@ const Landing = () => {
                 />
               </div>
             </div>
+
+            {/* Machine Learning */}
             <div>
               <h3 className="text-2xl font-medium mb-4">Machine Learning</h3>
-              <div className="flex justify-center gap-6">
+              <div className="flex justify-center gap-6 flex-wrap">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
                   alt="PyTorch"
@@ -421,17 +498,14 @@ const Landing = () => {
                 />
               </div>
             </div>
+
+            {/* Coming Soon */}
             <div>
               <h3 className="text-2xl font-medium mb-4">Coming Soon</h3>
               <div className="flex justify-center gap-6">
                 <img
                   src="https://raw.githubusercontent.com/detain/svg-logos/master/svg/a/amazon-web-services-2.svg"
                   alt="AWS"
-                  className="h-12 w-12"
-                />
-                <img
-                  src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/nestjs.svg"
-                  alt="NestJS"
                   className="h-12 w-12"
                 />
               </div>
@@ -471,34 +545,59 @@ const Landing = () => {
       >
         <div className="max-w-4xl text-center">
           <h2 className="text-4xl font-medium mb-6">Books</h2>
+
           <div className="space-y-8">
+            {/* Currently Reading */}
             <div>
               <h3 className="text-2xl font-medium mb-4">Currently Reading</h3>
               <ul className="text-lg text-gray-600 leading-8">
                 <li>
-                  <strong>Clean Code</strong> by Robert C. Martin
+                  <strong>Elon Musk</strong> by Walter Isaacson
                 </li>
                 <li>
-                  <strong>Designing Data-Intensive Applications</strong> by
-                  Martin Kleppmann
+                  <strong>የሚሳም ተራራ (Yemisam Terara): ትዝታን በጭልፋ</strong> by
+                  ፍቅርመኮስ ደስታ (Fikremarkos Desta)
                 </li>
               </ul>
             </div>
+
+            {/* 2025 Reading List */}
             <div>
-              <h3 className="text-2xl font-medium mb-4">Recommendations</h3>
+              <h3 className="text-2xl font-medium mb-4">
+                Reading List for 2025
+              </h3>
               <ul className="text-lg text-gray-600 leading-8">
                 <li>
-                  <strong>The Pragmatic Programmer</strong> by Andrew Hunt and
-                  David Thomas
+                  <strong>Get Epic Shit Done</strong> by Ankur Warikoo
                 </li>
                 <li>
-                  <strong>Deep Learning</strong> by Ian Goodfellow, Yoshua
-                  Bengio, and Aaron Courville
+                  <strong>How to Stop Worrying and Start Living</strong> by Dale
+                  Carnegie
                 </li>
                 <li>
-                  <strong>Atomic Habits</strong> by James Clear
+                  <strong>The Pig Book</strong> by Citizens Against Government
+                  Waste
+                </li>
+                <li>
+                  <strong>Dark Star Safari</strong> by Paul Theroux
+                </li>
+                <li>
+                  <strong>The 5AM Club</strong> by Robin Sharma
+                </li>
+                <li>
+                  <strong>A Promised Land</strong> by Barack Obama
+                </li>
+                <li>
+                  <strong>Ego Is the Enemy</strong> by Ryan Holiday
+                </li>
+                <li>
+                  <strong>Brain Rules</strong> by John Medina
+                </li>
+                <li>
+                  <strong>The Power of Habit</strong> by Charles Duhigg
                 </li>
               </ul>
+              <strong>...</strong>
             </div>
           </div>
         </div>
